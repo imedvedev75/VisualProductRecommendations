@@ -1,0 +1,45 @@
+Retrieving logs for app [36;1mobormot-service[0m in org [36;1mobormot-org[0m / space [36;1mdevelopment[0m as [36;1mobormot515@gmx.de[0m...
+
+   2017-08-05T14:46:14.71+0200 [API/0] OUT Created app with guid 40d23762-afbb-497f-a95d-92d8609b4d6b
+   2017-08-05T14:46:17.13+0200 [API/1] OUT Updated app with guid 40d23762-afbb-497f-a95d-92d8609b4d6b ({"route"=>"d4b47dff-4002-40da-be97-fbe0018d7757", :verb=>"add", :relation=>"routes", :related_guid=>"d4b47dff-4002-40da-be97-fbe0018d7757"})
+   2017-08-05T14:46:25.57+0200 [API/1] OUT Creating build for app with guid 40d23762-afbb-497f-a95d-92d8609b4d6b
+   2017-08-05T14:46:25.98+0200 [API/1] OUT Updated app with guid 40d23762-afbb-497f-a95d-92d8609b4d6b ({"state"=>"STARTED"})
+   2017-08-05T14:46:26.50+0200 [STG/0] OUT Creating container
+   2017-08-05T14:46:26.99+0200 [STG/0] OUT Successfully created container
+   2017-08-05T14:46:26.99+0200 [STG/0] OUT Downloading app package...
+   2017-08-05T14:46:27.06+0200 [STG/0] OUT Downloaded app package (4.2K)
+   2017-08-05T14:46:27.68+0200 [STG/0] OUT -----------------------------------
+   2017-08-05T14:46:27.68+0200 [STG/0] OUT BUILD_DIR: 
+   2017-08-05T14:46:27.68+0200 [STG/0] OUT CACHE_DIR:  /tmp/cache/final
+   2017-08-05T14:46:27.68+0200 [STG/0] OUT Python?:  /usr/bin/python
+   [31m2017-08-05T14:46:27.68+0200 [STG/0] ERR Python 2.7.6[0m
+   2017-08-05T14:46:27.68+0200 [STG/0] OUT -----------------------------------
+   2017-08-05T14:46:27.68+0200 [STG/0] OUT Static configurations for virtualenv caches.
+   2017-08-05T14:46:27.68+0200 [STG/0] OUT # Python version. This will be used in the future to specify custom Pythons.
+   2017-08-05T14:46:27.68+0200 [STG/0] OUT Setup bpwatch
+   2017-08-05T14:46:27.68+0200 [STG/0] OUT Support Anvil Build_IDs
+   2017-08-05T14:46:27.70+0200 [STG/0] OUT Sanitizing environment variables.
+   2017-08-05T14:46:27.81+0200 [STG/0] OUT about to: bpwatch build python v25 16b54090-24bf-418c-932f-d80cb95fdcee
+   2017-08-05T14:46:28.03+0200 [STG/0] OUT Syntax sugar.
+   2017-08-05T14:46:28.04+0200 [STG/0] OUT Copy Anvil app dir to temporary storage...
+   2017-08-05T14:46:28.41+0200 [STG/0] OUT Copy Application code in.
+   2017-08-05T14:46:28.67+0200 [STG/0] OUT Set new context.
+   2017-08-05T14:46:28.67+0200 [STG/0] OUT Prepend proper path buildpack use.
+   2017-08-05T14:46:28.67+0200 [STG/0] OUT Switch to the repo's context.
+   2017-08-05T14:46:28.67+0200 [STG/0] OUT Experimental pre_compile hook.
+   [31m2017-08-05T14:46:28.94+0200 [STG/0] ERR /tmp/buildpacks/8d15a0e597aa108880f847ce90636a31/bin/compile: line 110: setup.py: command not found[0m
+   2017-08-05T14:46:28.94+0200 [STG/0] OUT If no requirements given, assume .
+   2017-08-05T14:46:28.94+0200 [STG/0] OUT If no runtime given, assume default version.
+   2017-08-05T14:46:28.94+0200 [STG/0] OUT -----> No runtime.txt provided; assuming python-2.7.4.
+   2017-08-05T14:46:28.94+0200 [STG/0] OUT # Purge old-style virtualenvs.
+   2017-08-05T14:46:29.21+0200 [STG/0] OUT Restore old artifacts from the cache.
+   [31m2017-08-05T14:46:29.48+0200 [STG/0] ERR /tmp/buildpacks/8d15a0e597aa108880f847ce90636a31/bin/compile: line 139: .heroku: command not found[0m
+   2017-08-05T14:46:29.48+0200 [STG/0] OUT Create set-aside  folder.
+   2017-08-05T14:46:29.48+0200 [STG/0] OUT Install Python.
+   2017-08-05T14:46:29.60+0200 [STG/0] OUT -----> Preparing Python runtime (python-2.7.4)
+   2017-08-05T14:46:29.67+0200 [STG/0] OUT  !     Requested runtime (python-2.7.4) was not found.
+   2017-08-05T14:46:29.67+0200 [STG/0] OUT  !     Aborting.  More info: https://devcenter.heroku.com/articles/python-support
+   [31m2017-08-05T14:46:29.68+0200 [STG/0] ERR Failed to compile droplet[0m
+   2017-08-05T14:46:29.70+0200 [STG/0] OUT Exit status 223
+   2017-08-05T14:46:29.70+0200 [STG/0] OUT Destroying container
+   2017-08-05T14:46:30.22+0200 [STG/0] OUT Successfully destroyed container

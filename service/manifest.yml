@@ -1,0 +1,7 @@
+memory: 1G
+disk_quota: 1G
+instances: 1
+buildpack: https://github.com/cloudfoundry/python-buildpack
+command: python service.py
+applications:
+- name: obormot-service

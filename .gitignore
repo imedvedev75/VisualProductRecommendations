@@ -1,0 +1,15 @@
+data/
+androidapp/.idea/
+androidapp/Application/build/
+androidapp/build/
+androidapp/.gradle/
+androidapp/.idea/
+service/.idea/
+service/tmp/
+service/imagenet/
+service/images/
+service/bottleneck/
+retrainV3/.idea/
+AmazonCrawler/.idea/
+Segmentation/.idea/
+
